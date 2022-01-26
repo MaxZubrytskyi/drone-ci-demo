@@ -18,7 +18,7 @@ steps:
       - echo $${DOCKER_PASSWORD}
       - echo $${MY_TELEGRAM_TOKEN}
       - echo $${MY_TELEGRAM_ID}
-      - echo $${GITHUB_TOKEN2}
+      - echo $${GITHUB_TOKEN}
 
   - name: unit-test
     image: node:10
